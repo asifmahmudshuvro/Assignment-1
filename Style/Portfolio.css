@@ -6,7 +6,7 @@ body {
 }
 
 .btn-primary {
-    
+
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ nav div button a {
     color: rgb(13, 19, 33);
 }
 
-nav div button:hover{
+nav div button:hover {
     background-color: lightgray;
     display: block;
 }
@@ -42,6 +42,16 @@ nav div button:hover{
 .nav-bar {
     display: flex;
     justify-content: space-around;
+}
+
+.banner .banner-content .banner-btn-primary:hover {
+    background-color: lightgray;
+    display: block;
+}
+
+.banner .banner-content a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .banner {
@@ -304,7 +314,7 @@ nav div button:hover{
     margin: 32px 0px;
     border-radius: 16px;
 
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .frame2-title {
@@ -352,11 +362,11 @@ nav div button:hover{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
-    }
+}
 
 /* my-inspiration-section */
 
-.my-inspiration{
+.my-inspiration {
     position: absolute;
     width: 1140px;
     height: 777px;
@@ -367,16 +377,16 @@ nav div button:hover{
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    }
-    
-    .my-insp{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    
-    .my-insp-title{
+}
+
+.my-insp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my-insp-title {
     width: 852px;
     height: 39px;
     padding: 0px;
@@ -390,9 +400,9 @@ nav div button:hover{
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
-    }
-    
-    .my-insp-description{
+}
+
+.my-insp-description {
     width: 852px;
     height: 52px;
     padding: 0px;
@@ -404,9 +414,9 @@ nav div button:hover{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    }
-    
-    .video-box{
+}
+
+.video-box {
     width: 1140px;
     height: 614px;
     padding: 32px;
@@ -414,65 +424,70 @@ nav div button:hover{
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    
-    }
-    
-    .video{
+
+}
+
+.video {
     border-radius: 16px;
-    
-    }
-    
-    .my-current{
-        position: absolute;
-        width: 1140px;
-        height: 463px;
-        left: 195px;
-        top: 3400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 0px;
-    }
-    
-    .my-curr{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;  
-    }
-    
-    .my-curr-title{
-        width: 852px;
-        height: 39px;
-        padding: 0px;
-        order: 0;
-        flex-grow: 0;
-        margin: 24px 0px;
-        color: rgb(13, 19, 33);
-        font-family: Azeret Mono;
-        font-size: 32px;
-        font-weight: 800;
-        line-height: 37px;
-        letter-spacing: 0%;
-        text-align: center;
-    }
-    
-    .my-curr-description{
-        width: 852px;
-        height: 52px;
-        padding: 0px;
-        margin: 24px 0px;
-        color: rgb(13, 19, 33);
-        font-family: Azeret Mono;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-        letter-spacing: 0%;
-        text-align: center;
-        }
-    
-        .cart-box{
+
+}
+
+.my-current {
+    position: absolute;
+    width: 1140px;
+    height: 463px;
+    left: 195px;
+    top: 3400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.my-curr {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my-curr-title {
+    width: 852px;
+    height: 39px;
+    padding: 0px;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.my-curr-description {
+    width: 852px;
+    height: 52px;
+    padding: 0px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.box-items .cart-learn a {
+    text-decoration: none;
+}
+
+
+.cart-box {
     position: static;
     height: 300px;
     display: flex;
@@ -485,9 +500,10 @@ nav div button:hover{
     flex-grow: 0;
     margin: 48px 0px;
     padding-top: 40px;
-        }
-    
-        .box1{
+}
+
+
+.box1 {
     position: static;
     width: 280px;
     height: 270px;
@@ -502,16 +518,16 @@ nav div button:hover{
     margin: 0px 24px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    
-        }
-    
-        .box-img{
-            padding-top: 15px;
-            padding-bottom: 15px;
-    
-        }
-    
-        .cart-tile{
+
+}
+
+.box-img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.cart-tile {
     width: 284px;
     height: 36px;
     margin: 8px 0px;
@@ -523,9 +539,9 @@ nav div button:hover{
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-        }
-    
-        .cart-description{
+}
+
+.cart-description {
     width: 284px;
     height: 52px;
     margin: 8px 0px;
@@ -538,9 +554,9 @@ nav div button:hover{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
-        }
-    
-    .cart-learn{
+}
+
+.cart-learn {
     width: 284px;
     height: 20px;
     margin: 24px 0px;
@@ -553,137 +569,137 @@ nav div button:hover{
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
-    }
+}
 
-    .box2{
-        position: static;
-        width: 280px;
-        height: 270px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding: 40px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px 24px;
-        border-radius: 16px;
+.box2 {
+    position: static;
+    width: 280px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border-radius: 16px;
 
-        background: rgba(0, 76, 232, 0.05);
-    }
+    background: rgba(0, 76, 232, 0.05);
+}
 
-    .box3{
-        position: static;
-        width: 280px;
-        height: 270px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding: 40px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px 24px;
-        border-radius: 16px;
+.box3 {
+    position: static;
+    width: 280px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border-radius: 16px;
 
-        background: rgba(255, 223, 0, 0.05);
-    }
+    background: rgba(255, 223, 0, 0.05);
+}
 
-.support{
+.support {
     /* Frame 8 */
-position: absolute;
-width: 1140px;
-height: 314px;
-left: 150px;
-right: 150px;
-top: 4752px;
-bottom: 179px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 64px 48px 64px 48px;
-margin-left: 160px;
-/* margin-top: 400px; */
+    position: absolute;
+    width: 1140px;
+    height: 314px;
+    left: 150px;
+    right: 150px;
+    top: 4752px;
+    bottom: 179px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 48px 64px 48px;
+    margin-left: 160px;
+    /* margin-top: 400px; */
 
-border-radius: 16px;
+    border-radius: 16px;
 
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 
 }
 
-    .support-section {
-        background-image: url("../assets/handshake.jpg"); 
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-align: center;
-        border-radius: 16px;
-    }
-    
-    .content h1 {
-        font-size: 30px;
-        
-    }
-    
-    .content p {
-        font-size: 15px;
-        
-    }
-    
-    
-    
-    .feedback-form {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 100px;
-    }
-    
-    .feedback-form input {
-        width: 548px;
-        padding: 10px;
-        border: none;
-        border-radius: 5px 0 0 5px;
-    }
-    
-    .feedback-form button {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 0 5px 5px 0;
-        background-color: white;
-        color: black;
-        cursor: pointer;
-    }
-    
-    .feedback-form button:hover {
-        background-color: #ddd;
-    }
+.support-section {
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+}
 
-    footer ul{
-        display: flex;
-        margin-left: 100px;
-        
-    }
+.content h1 {
+    font-size: 30px;
 
-    footer ul div{
-        display: flex;
-        list-style: none;
-        align-items: center;
-        justify-content:space-around;
-        padding-left: 800px;
-    }
+}
 
-    .git{
+.content p {
+    font-size: 15px;
 
-            padding-left: 20px;
-            padding-right: 20px;
-        }
+}
+
+
+
+.feedback-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.feedback-form input {
+    width: 548px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #ddd;
+}
+
+footer ul {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+footer ul div {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 800px;
+}
+
+.git {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
