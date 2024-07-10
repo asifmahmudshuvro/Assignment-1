@@ -32,7 +32,7 @@ nav div button:hover {
 .nav-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 800;
     line-height: 33px;
     letter-spacing: 0%;
@@ -107,7 +107,7 @@ nav div button:hover {
     justify-content: flex-start;
     text-align: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 
 }
 
@@ -416,6 +416,11 @@ nav div button:hover {
     text-align: center;
 }
 
+.video {
+    border-radius: 16px;
+
+}
+
 .video-box {
     width: 1140px;
     height: 614px;
@@ -427,10 +432,7 @@ nav div button:hover {
 
 }
 
-.video {
-    border-radius: 16px;
 
-}
 
 .my-current {
     position: absolute;
