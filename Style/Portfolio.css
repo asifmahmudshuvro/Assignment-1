@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 22px;
+
+}
+
+.nav-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 134px;
+}
+
+.nav-button {
+
+    margin-right: 134px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 11px 17px 11px 17px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    opacity: 0.8;
+
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 15px 19px 15px 19px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(13, 19, 33);
+    border: none;
+}
+
+#hero {
+    width: 100%;
+    height: 715px;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+#hero .hero-content {
+    width: 850px;
+
+}
+
+#hero .hero-content .subtitle {
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+#hero .hero-content .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 13px;
+
+}
+
+#hero .hero-content .description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 17px;
+
+}
