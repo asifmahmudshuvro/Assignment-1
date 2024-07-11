@@ -214,6 +214,15 @@ nav div button:hover {
     margin: 48px 0px;
 }
 
+.frame1-2-3 button:hover{
+    background-color: #ddd;
+}
+
+.frame1-2-3 a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
 .frame1 {
     position: static;
     width: 946px;
@@ -432,19 +441,19 @@ nav div button:hover {
 
 }
 
-
+/* My current section */
 
 .my-current {
     position: absolute;
     width: 1140px;
     height: 463px;
-    left: 195px;
-    top: 3400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
+        left: 195px;
+        top: 3400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
 }
 
 .my-curr {
@@ -609,68 +618,110 @@ nav div button:hover {
     background: rgba(255, 223, 0, 0.05);
 }
 
-.support {
-    /* Frame 8 */
-    position: absolute;
-    width: 1140px;
-    height: 314px;
-    left: 150px;
-    right: 150px;
-    top: 4752px;
-    bottom: 179px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 64px 48px 64px 48px;
-    margin-left: 160px;
-    /* margin-top: 400px; */
 
-    border-radius: 16px;
 
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+/* Support Section */
+
+/* support box */
+
+.support-box{
+    background-image: url(../assets/handshake.jpg);
+ /* Frame 8 */
+position: absolute;
+width: 1140px;
+height: 314px;
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 179px;
+border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+
 
 }
 
-.support-section {
-    background-image: url("../assets/handshake.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.support-box-element{
+
+/* Frame 9 */
+position: static;
+width: 1044px;
+height: 186px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
+
+.need-support-box{
+/* Frame 6 */
+position: static;
+width: 730px;
+height: 104px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+letter-spacing: 0%;
+text-align: center;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.support-box .need-support-box p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
     text-align: center;
-    border-radius: 16px;
+    opacity: 0.7;
 }
 
-.content h1 {
-    font-size: 30px;
+.feedback-form{
 
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
 }
 
-.content p {
-    font-size: 15px;
-
-}
-
-
-
-.feedback-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-}
 
 .feedback-form input {
     width: 548px;
     padding: 10px;
     border: none;
     border-radius: 5px 0 0 5px;
+    
 }
 
 .feedback-form button {
@@ -680,6 +731,7 @@ nav div button:hover {
     background-color: white;
     color: black;
     cursor: pointer;
+    
 }
 
 .feedback-form button:hover {
